@@ -1,7 +1,7 @@
 # ComboSkills
 An ACT plugin for FFXIV which enables the creation of skill combos
 
-It should be noted that although ComboSkills is a solution for the GCD issue of FFXIV macros, it does not behave the same way. ComboSkills combos are not automated in sequence, instead each skill in a combo sequence is activated when the initial skill of the combo is pressed. Basically, instead of having to press multiple buttons for multiple skills, you're only pressing 1 button multiple times and each time a skill is detected as being used in the combat log, the keybinding for the button being pressed changes to the binding of the next skill in the combo.
+It should be noted that although ComboSkills is a solution for the GCD issue of FFXIV macros, it does not behave the same way. ComboSkills combos are not automated in sequence, instead each skill in a combo sequence is activated when the keybinding of the initial skill of the combo is activated. Basically, instead of having to press multiple buttons for multiple skills, you're only pressing 1 button multiple times and each time a skill is detected as being used in the combat log, the keybinding for the button being pressed changes to the binding of the next skill in the combo.
 
 # Installation
 - Download the latest version on the Releases page [here](https://github.com/priprii/ComboSkills/releases)
