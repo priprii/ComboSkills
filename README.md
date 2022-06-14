@@ -31,7 +31,7 @@ The Combos tab is where you setup combos using the skills added on the Skills ta
 
 It should be noted that the key binding for the first skill in a combo will be the key you press to continue the combo.
 
-Eg. If I have a 'True Thrust > Disembowel' combo and 'True Thrust' is bound to NumPad1 while 'Disembowel' is bound to NumPad2, I press 'NumPad1' to trigger 'True Thrust', and then I press it again to trigger 'Disembowel'. ComboSkills remaps 'NumPad1' to 'NumPad2' when it receives notice of 'True Thrust' being used. When a combo is at the end of the sequence, the remapping is removed so that the initial skill can be activated again.
+Eg. If I have a 'True Thrust > Disembowel' combo and 'True Thrust' is bound to NumPad1 while 'Disembowel' is bound to NumPad2, I press 'NumPad1' to trigger 'True Thrust', and then I press it again to trigger 'Disembowel'. ComboSkills will send 'NumPad2' instead of the 2nd 'NumPad1' when it receives notice of 'True Thrust' being used. When a combo is at the end of the sequence, the initial skill can be activated again.
 
 I would suggest binding skills in a combo to keybinds that you wouldn't typically press like 'Ctrl + Shift + F1' and put them on a hidden actionbar, so that you have more normal bindings to work with for other things. Eg. 'Disembowel' is a skill that you only ever use in combo after 'True Thrust' and it doesn't have a cooldown, so it's safe to hide it away and give it a keybinding that we'll never directly use.
 
