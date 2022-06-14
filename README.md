@@ -1,6 +1,8 @@
 # ComboSkills
 An ACT plugin for FFXIV which enables the creation of skill combos
 
+It should be noted that although ComboSkills is a solution for the GCD issue of FFXIV macros, it does not behave the same way. ComboSkills combos are not automated in sequence, instead each skill in a combo sequence is activated when the initial skill of the combo is pressed. Basically, instead of having to press multiple buttons for multiple skills, you're only pressing 1 button multiple times and each time a skill is detected as being used in the combat log, the keybinding for the button being pressed changes to the binding of the next skill in the combo.
+
 # Installation
 - Download the latest version on the Releases page [here](https://github.com/priprii/ComboSkills/releases)
 - Extract to AppData\Roaming\Advanced Combat Tracker\Plugins\CombatSkills
@@ -28,8 +30,6 @@ The Combos tab is where you setup combos using the skills added on the Skills ta
 - **Combo Sequence**: A preview of the current combo setup, if you add 'True Thrust' and then add 'Disembowel' from the skill list, you'll see 'True Thrust > Disembowel', whereby the combo starts from the left and ends with the skill on the right
 - **Add/Update Combo**: When you have finished adding skills to the combo, click this to add it to the combo list (or update a combo selected in the list)
 - **Remove Combo**: Removes the combo selected in the combo list
-
-It should be noted that the key binding for the first skill in a combo will be the key you press to continue the combo.
 
 Eg. If I have a 'True Thrust > Disembowel' combo and 'True Thrust' is bound to NumPad1 while 'Disembowel' is bound to NumPad2, I press 'NumPad1' to trigger 'True Thrust', and then I press it again to trigger 'Disembowel'. ComboSkills will send 'NumPad2' instead of the 2nd 'NumPad1' when it receives notice of 'True Thrust' being used. When a combo is at the end of the sequence, the initial skill can be activated again.
 
