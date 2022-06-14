@@ -10,7 +10,7 @@ An ACT plugin for FFXIV which enables the creation of skill combos
 - When ComboSkills has been loaded, you'll find a new subtab on the Plugins tab called 'ComboSkills.dll' where you can setup skills/combos
 
 # Skills
-- This tab is where you add skills that you want to use in combos
+The Skills tab is where you add skills that you want to use in combos.
 - **Skill Name**: Must be exactly how it shows in the in-game combat log when you use a skill
 - **Alternative Name**: For skills which switch to other skills on proc (Eg. Dragoon's 'True Thrust' becomes 'Raiden Thrust'), otherwise leave this field blank
 - **Key Binding**: The key you press when using the skill in-game
@@ -20,6 +20,7 @@ An ACT plugin for FFXIV which enables the creation of skill combos
 - **Remove Skill**: Removes the selected item from the skills list
 
 # Combos
+The Combos tab is where you setup combos using the skills added on the Skills tab.
 - **Class**: Select the job class that the combo will be active for
 - **Expiration**: The time in seconds until a combo is considered broken, Eg. If a Dragoon uses True Thrust, the potency bonus when following with Disembowel is only available for 30 seconds, so setting this to 30 will cause a 'True Thrust > Disembowel' combo to reset if the combo keybinding isn't activated again within 30 seconds.
 - **Select Skill**: This is a list of skills added to the Skills list on the Skills tab that you may want to add to a combo
