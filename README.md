@@ -24,7 +24,7 @@ The Skills tab is where you add skills that you want to use in combos.
 # Combos
 The Combos tab is where you setup combos using the skills added on the Skills tab.
 - **Class**: Select the job class that the combo will be active for
-- **Expiration**: The time in seconds until a combo is considered broken, Eg. If a Dragoon uses True Thrust, the potency bonus when following with Disembowel is only available for 30 seconds, so setting this to 30 will cause a 'True Thrust > Disembowel' combo to reset if the combo keybinding isn't activated again within 30 seconds.
+- **Expiration**: The time in seconds until a combo is considered broken, set to 0 for no expiration. Eg. If a Dragoon uses True Thrust, the potency bonus when following with Disembowel is only available for 30 seconds, so setting this to 30 will cause a 'True Thrust > Disembowel' combo to reset if the combo keybinding isn't activated again within 30 seconds.
 - **Select Skill**: This is a list of skills added to the Skills list on the Skills tab that you may want to add to a combo
 - **Add/Remove Skill**: Adds/Removes the skill selected in the aformentioned dropdown box to the combo
 - **Combo Sequence**: A preview of the current combo setup, if you add 'True Thrust' and then add 'Disembowel' from the skill list, you'll see 'True Thrust > Disembowel', whereby the combo starts from the left and ends with the skill on the right
