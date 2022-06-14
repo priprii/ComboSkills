@@ -33,6 +33,8 @@ It should be noted that the key binding for the first skill in a combo will be t
 
 Eg. If I have a 'True Thrust > Disembowel' combo and 'True Thrust' is bound to NumPad1 while 'Disembowel' is bound to NumPad2, I press 'NumPad1' to trigger 'True Thrust', and then I press it again to trigger 'Disembowel'. ComboSkills remaps 'NumPad1' to 'NumPad2' when it receives notice of 'True Thrust' being used. When a combo is at the end of the sequence, the remapping is removed so that the initial skill can be activated again.
 
+I would suggest binding skills in a combo to keybinds that you wouldn't typically press like 'Ctrl + Shift + F1' and put them on a hidden actionbar, so that you have more normal bindings to work with for other things. Eg. 'Disembowel' is a skill that you only ever use in combo after 'True Thrust' and it doesn't have a cooldown, so it's safe to hide it away and give it a keybinding that we'll never directly use.
+
 You can also break combo by activating the initial skill of a different combo (which from my limited experience is how combos are broken in-game). Eg. If I have a single target combo of 'True Thrust > Disembowel > Chaos Thrust' and an AoE combo of 'Doom Spike > Sonic Thrust > Coerthan Torment', if I do 'True Thrust > Disembowel' but then switch to AoE with 'Doom Spike', the single target combo will be reset while the AoE combo will be triggering.
 
 # Issues
